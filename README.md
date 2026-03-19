@@ -1,0 +1,2 @@
+# TaskMate
+TaskMate é um gestor de tarefas pessoais simples e eficiente, desenvolvido para ajudar os utilizadores a organizar as suas atividades diárias e aumentar a produtividade. A aplicação permite adicionar, concluir e remover tarefas através de uma interface intuitiva, utilizando armazenamento local no navegador.  Desenvolvido com HTML, CSS e JavaScript, o TaskMate foca-se na simplicidade, usabilidade e gestão eficaz de tarefas
