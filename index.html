@@ -10,15 +10,45 @@
 </head>
 <body>
   <div class="container">
-    <h1>ðŸ“‹ TaskMate</h1>
-    <p class="subtitle">O seu gestor pessoal de tarefas</p>
+    <h1>?? TaskMate</h1>
+    <p class="subtitle">Organize suas tarefas de forma simples e eficiente</p>
+
+    <!-- DASHBOARD -->
+    <div class="dashboard">
+      <div class="card">
+        <h3>Total</h3>
+        <p id="totalTasks">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Concluídas</h3>
+        <p id="completedTasks">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Pendentes</h3>
+        <p id="pendingTasks">0</p>
+      </div>
+    </div>
+
+    <!-- BARRA DE PROGRESSO -->
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+
+    <!-- INPUT -->
     <div class="input-group">
       <input type="text" id="taskInput" placeholder="Digite uma nova tarefa..." />
       <button id="addTaskBtn">Adicionar</button>
     </div>
+
+    <!-- LISTA -->
     <ul id="taskList"></ul>
+
+    <!-- BOTÃO EXPORTAR -->
     <button id="exportBtn">Exportar para Word</button>
-    <p class="note">Dica: Clique uma vez para marcar, clique duas vezes para remover</p>
+
+    <p class="note">Clique 1x: concluir | 2x: remover</p>
   </div>
 </body>
 </html>
